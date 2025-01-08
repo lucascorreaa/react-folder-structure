@@ -3,5 +3,5 @@ interface DashboardProps {
 }
 
 export const Dashboard = ({ label }: DashboardProps) => {
-  return <h1>Dashboard e sua {label}</h1>
+  return <h1>Dashboard do {label}</h1>
 }
